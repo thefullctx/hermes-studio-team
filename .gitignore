@@ -1,0 +1,20 @@
+# OS and editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Backups made by install.sh
+*.bak-*
+
+# Never commit secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+auth.json
+
+# Local project work (keep client projects out of this repo)
+projects/
